@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/png;base64,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">
+    <title>HTML</title>
+    <style>
+        body{
+            background: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background: orange;
+            text-align: center;
+            border: 2px solid black;
+            margin-bottom: 50px;
+        }
+        nav ul li{
+            float: left;
+            list-style: none;
+            margin: 10px;
+            line-height: 30px;
+        }
+
+        .clearfix{
+            clear: both;
+        }
+
+        #lista{
+            margin: 0;
+            padding: 15px;
+            border: 2px solid black;
+        }
+        #tabla{
+            background: yellowgreen;
+            height: 100%;
+            width: 30%;
+            margin: 0px;
+            border: 2px solid black
+        }
+        #imagenes{
+            margin: 0;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        #videos{
+            margin: 0;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        form{
+            background: yellowgreen;
+            height: 100%;
+            width: 98%;
+            margin: 0px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+   
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Contenidos</h1>
+            <ul>
+                <li><a href="#lista">Listas</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#imagenes">Imagenes</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <main>
+        <h2>Listas</h2>
+        <section id="lista">
+            <h3>Listas ordenadas</h3>
+            <ol>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ol>
+            <h3>Listas no ordenadas</h3>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+            <h3>Listas de definiciones</h3>
+            <dl>
+                <dt> Programación
+                    <dd>
+                        Es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. 
+                        Pero no solo la acción de escribir un código para que la computadora o el software lo ejecute. Incluye, además, 
+                        todas las tareas necesarias para que el código funcione correctamente y cumpla el objetivo para el cual se escribió.
+                    </dd>
+                </dt>
+                <dt>HTML
+                    <dd>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página 
+                        web y sus contenidos. 
+                    </dd>
+                </dt>
+                <dt>CSS
+                    <dd>
+                        Las hojas de estilo en cascada (CSS, cascading style sheets) permiten crear páginas web atractivas. 
+                    </dd>
+                </dt>
+            </dl>
+            <h3>Listas anidadas</h3>
+            <ul>
+                <li>Lenguajes de programación 
+                    <ol>
+                        <li>Python
+                            <ul>
+                                <li>Orientado a objeto</li>
+                                <li>Código abierto</li>
+                                <li>Sintaxis clara y concisa</li>
+                            </ul>
+                        </li>
+                        <li>JavaScript
+                            <ul>
+                                <li>Imperativo y estructurado</li>
+                                <li>Tipado débil</li>
+                                <li>Interpretado</li>
+                            </ul>
+
+                        </li>
+                        <li>Java
+                            <ul>
+                                <li>Orientado a objeto</li>
+                                <li>Portabilidad</li>
+                                <li>Seguridad</li>
+                            </ul>
+                        </li>
+
+                    </ol>
+
+                </li>
+            </ul>            
+        </section>
+        <br>
+        <h2>Tabla para la dieta semanal</h2>
+        <section id="tabla">
+            <table border="1">
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>Manzana</td>
+                    <td>Naranja</td>
+                    <td>Pera</td>
+                    <td>Leche</td>
+                    <td>Kitkat</td>
+                </tr>
+                <tr>
+                    <td>Huevo</td>
+                    <td>Tortilla</td>
+                    <td>Legumbres</td>
+                    <td>Pollo</td>
+                    <td>Pezcado</td>
+                </tr>
+                <tr>
+                    <td>Jamón y queso</td>
+                        <td>Manzana</td>
+                        <td>Tostada</td>
+                        <td>Yogurt</td>
+                        <td>Cereales</td>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>File de cerdo</td>
+                    <td>Alitas de pollo</td>
+                    <td>Torrija</td>
+                    <td>Migas</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <h2>Imagenes</h2>
+        <section id="imagenes">
+            <img src="https://www.campustech.fr/wp-content/uploads/2023/07/The-last-of-us-part-3.jpg" 
+                alt="Ellie de last of us" title="Ellie de last of us" width="299">
+                <br>
+                <h3>Usando la etiqueta figure</h3>
+                <p>Las tortugas de tailandia tienen la cabeza de triangulo</p>
+                <!--Se utiliza figure para imagenes opcionales, es decir, que sean complementarias al texto-->
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkZ1Lw_tZieZWM0_qDlpE2_SCgWOvuKoIIyg&usqp=CAU" 
+                        alt="Tortuga tailandesa nadando">
+                    <figcaption>Tortuga tailandesa nadando</figcaption>
+                </figure>
+        </section>
+        <br>
+        <h2>Videos</h2>
+        <section id="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Mt-SNarpuB0?si=9TPnBRUkWF54mvjk" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+            <br> <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1ajsd0nzpMk?si=TX4hf2S7CEM03k_T" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
+        </section>
+        <br>
+        <h2>Contacto</h2>
+        <section id="formulario">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <form >
+                    <div>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="name" placeholder="Escribe tu nombre" 
+                            pattern="[a-zA-ZáéíóúÁÉÍÓÚ]{3,20}">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="nombre" name="apellido" placeholder="Escribe tu apellido"
+                            pattern="[a-zA-ZáéíóúÁÉÍÓÚ]{3,20}">
+                        </div>
+                        <br/>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="correo" id="email" placeholder="Escribe tu email" multiple required>
+                        </div>
+                        <br/>
+                        <div>
+                            <label for="edad">Edad</label>
+                            <input type="number" id="edad" min="0" max="150">
+                        </div>
+                        <br/>
+                        <div>
+                            <label for="genero">Genero</label>
+                            <select id="genero">
+                                <option value="masculino">Masculino</option>
+                                <option value="Femenino">Femenino</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="motivo">Motivo de contacto</label>
+                            <textarea id="motivo"></textarea>
+                        </div>
+                        <br>
+                        <input type="submit" value="Enviar"> 
+                        <input type="reset" value="Limpiar formulario">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+
+    </main>
+    <br>
+    <footer>
+        <a href="#top">Ir arriba</a>
+    </footer>
+</body>
+</html>
